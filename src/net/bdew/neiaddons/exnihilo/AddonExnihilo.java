@@ -52,6 +52,6 @@ public class AddonExnihilo extends BaseAddon {
     @Override
     @SideOnly(Side.CLIENT)
     public void loadClient() {
-        // Currently this addon includes only some WAILA handlers
+        AddonExnihiloClient.load();
     }
 }
